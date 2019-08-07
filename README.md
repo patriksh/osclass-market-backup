@@ -11,3 +11,10 @@ Osclass Market is closing... Here you can find all free content available for Os
 >Thank you for being with us throughout the years. We are sorry for any inconvenience that the Osclass Market closure may cause you. 
 >
 >Osclass Team
+
+## What will I add here?
+- [x] All free plugins
+- [x] All free themes
+- [x] All languages
+- [ ] All location data
+- [ ] Tutorials and documentation
