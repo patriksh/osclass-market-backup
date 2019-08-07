@@ -16,5 +16,5 @@ Osclass Market is closing... Here you can find all free content available for Os
 - [x] All free plugins
 - [x] All free themes
 - [x] All languages
-- [ ] All location data
+- [x] All location data
 - [ ] Tutorials and documentation
