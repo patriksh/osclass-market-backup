@@ -1,0 +1,386 @@
+{
+    "name": "locations",
+    "type": "directory",
+    "children": [
+        {
+            "name": "SG-Singapore.sql",
+            "type": "file"
+        },
+        {
+            "name": "LV-Latvia.sql",
+            "type": "file"
+        },
+        {
+            "name": "KE-Kenya.sql",
+            "type": "file"
+        },
+        {
+            "name": "BZ-Belize.sql",
+            "type": "file"
+        },
+        {
+            "name": "IE-Ireland.sql",
+            "type": "file"
+        },
+        {
+            "name": "AG-Antigua and Barbuda.sql",
+            "type": "file"
+        },
+        {
+            "name": "CN-China.sql",
+            "type": "file"
+        },
+        {
+            "name": "SV-El Salvador.sql",
+            "type": "file"
+        },
+        {
+            "name": "CI-Ivory Coast.sql",
+            "type": "file"
+        },
+        {
+            "name": "DE-Germany.sql",
+            "type": "file"
+        },
+        {
+            "name": "AR-Argentina.sql",
+            "type": "file"
+        },
+        {
+            "name": "MX-Mexico.sql",
+            "type": "file"
+        },
+        {
+            "name": "locations.txt",
+            "type": "file"
+        },
+        {
+            "name": "AF-Afghanistan.sql",
+            "type": "file"
+        },
+        {
+            "name": "IT-Italy.sql",
+            "type": "file"
+        },
+        {
+            "name": "PA-Panama.sql",
+            "type": "file"
+        },
+        {
+            "name": "PS-Palestinian Territory.sql",
+            "type": "file"
+        },
+        {
+            "name": "AT-Austria.sql",
+            "type": "file"
+        },
+        {
+            "name": "LB-Lebanon.sql",
+            "type": "file"
+        },
+        {
+            "name": "NL-Netherlands.sql",
+            "type": "file"
+        },
+        {
+            "name": "AW-Aruba.sql",
+            "type": "file"
+        },
+        {
+            "name": "PY-Paraguay.sql",
+            "type": "file"
+        },
+        {
+            "name": "PL-Poland.sql",
+            "type": "file"
+        },
+        {
+            "name": "PT-Portugal.sql",
+            "type": "file"
+        },
+        {
+            "name": "NG-Nigeria.sql",
+            "type": "file"
+        },
+        {
+            "name": "MA-Morocco.sql",
+            "type": "file"
+        },
+        {
+            "name": "MY-Malaysia.sql",
+            "type": "file"
+        },
+        {
+            "name": "AO-Angola.sql",
+            "type": "file"
+        },
+        {
+            "name": "LK-Sri Lanka.sql",
+            "type": "file"
+        },
+        {
+            "name": "JP-Japan.sql",
+            "type": "file"
+        },
+        {
+            "name": "CZ-Czech Republic.sql",
+            "type": "file"
+        },
+        {
+            "name": "KH-Cambodia.sql",
+            "type": "file"
+        },
+        {
+            "name": "VE-Venezuela.sql",
+            "type": "file"
+        },
+        {
+            "name": "HN-Honduras.sql",
+            "type": "file"
+        },
+        {
+            "name": "AU-Australia.sql",
+            "type": "file"
+        },
+        {
+            "name": "CL-Chile.sql",
+            "type": "file"
+        },
+        {
+            "name": "BS-Bahamas.sql",
+            "type": "file"
+        },
+        {
+            "name": "BM-Bermuda.sql",
+            "type": "file"
+        },
+        {
+            "name": "PK-Pakistan.sql",
+            "type": "file"
+        },
+        {
+            "name": "GL-Greenland.sql",
+            "type": "file"
+        },
+        {
+            "name": "CU-Cuba.sql",
+            "type": "file"
+        },
+        {
+            "name": "EC-Ecuador.sql",
+            "type": "file"
+        },
+        {
+            "name": "AD-Andorra.sql",
+            "type": "file"
+        },
+        {
+            "name": "readme.md",
+            "type": "file"
+        },
+        {
+            "name": "ZW-Zimbabwe.sql",
+            "type": "file"
+        },
+        {
+            "name": "JM-Jamaica.sql",
+            "type": "file"
+        },
+        {
+            "name": "BR-Brazil.sql",
+            "type": "file"
+        },
+        {
+            "name": "ES-Spain.sql",
+            "type": "file"
+        },
+        {
+            "name": "UA-Ukraine.sql",
+            "type": "file"
+        },
+        {
+            "name": "TR-Turkey.sql",
+            "type": "file"
+        },
+        {
+            "name": "HR-Croatia.sql",
+            "type": "file"
+        },
+        {
+            "name": "RS-Serbia.sql",
+            "type": "file"
+        },
+        {
+            "name": "TH-Thailand.sql",
+            "type": "file"
+        },
+        {
+            "name": "GQ-Equatorial Guinea.sql",
+            "type": "file"
+        },
+        {
+            "name": "GH-Ghana.sql",
+            "type": "file"
+        },
+        {
+            "name": "IR-Iran.sql",
+            "type": "file"
+        },
+        {
+            "name": "IN-India.sql",
+            "type": "file"
+        },
+        {
+            "name": "BB-Barbados.sql",
+            "type": "file"
+        },
+        {
+            "name": "GY-Guyana.sql",
+            "type": "file"
+        },
+        {
+            "name": "PE-Peru.sql",
+            "type": "file"
+        },
+        {
+            "name": "AL-Albania.sql",
+            "type": "file"
+        },
+        {
+            "name": "UY-Uruguay.sql",
+            "type": "file"
+        },
+        {
+            "name": "LC-Saint Lucia.sql",
+            "type": "file"
+        },
+        {
+            "name": "SM-San Marino.sql",
+            "type": "file"
+        },
+        {
+            "name": "PR-Puerto Rico.sql",
+            "type": "file"
+        },
+        {
+            "name": "IL-Israel.sql",
+            "type": "file"
+        },
+        {
+            "name": "DO-Dominican Republic.sql",
+            "type": "file"
+        },
+        {
+            "name": "DK-Denmark.sql",
+            "type": "file"
+        },
+        {
+            "name": "list.json",
+            "type": "file"
+        },
+        {
+            "name": "FI-Finland.sql",
+            "type": "file"
+        },
+        {
+            "name": "RO-Romania.sql",
+            "type": "file"
+        },
+        {
+            "name": "CH-Switzerland.sql",
+            "type": "file"
+        },
+        {
+            "name": "GR-Greece.sql",
+            "type": "file"
+        },
+        {
+            "name": "DZ-Algeria.sql",
+            "type": "file"
+        },
+        {
+            "name": "BO-Bolivia.sql",
+            "type": "file"
+        },
+        {
+            "name": "ID-Indonesia.sql",
+            "type": "file"
+        },
+        {
+            "name": "NI-Nicaragua.sql",
+            "type": "file"
+        },
+        {
+            "name": "dir2json.py",
+            "type": "file"
+        },
+        {
+            "name": "HK-Hong Kong.sql",
+            "type": "file"
+        },
+        {
+            "name": "FR-France.sql",
+            "type": "file"
+        },
+        {
+            "name": "SE-Sweden.sql",
+            "type": "file"
+        },
+        {
+            "name": "CO-Colombia.sql",
+            "type": "file"
+        },
+        {
+            "name": "ZA-South Africa.sql",
+            "type": "file"
+        },
+        {
+            "name": "PG-Papua New Guinea.sql",
+            "type": "file"
+        },
+        {
+            "name": "HT-Haiti.sql",
+            "type": "file"
+        },
+        {
+            "name": "NO-Norway.sql",
+            "type": "file"
+        },
+        {
+            "name": "CR-Costa Rica.sql",
+            "type": "file"
+        },
+        {
+            "name": "GT-Guatemala.sql",
+            "type": "file"
+        },
+        {
+            "name": "GB-United Kingdom.sql",
+            "type": "file"
+        },
+        {
+            "name": "CA-Canada.sql",
+            "type": "file"
+        },
+        {
+            "name": "RU-Russia.sql",
+            "type": "file"
+        },
+        {
+            "name": "LU-Luxembourg.sql",
+            "type": "file"
+        },
+        {
+            "name": "US-United States.sql",
+            "type": "file"
+        },
+        {
+            "name": "BE-Belgium.sql",
+            "type": "file"
+        },
+        {
+            "name": "PH-Philippines.sql",
+            "type": "file"
+        }
+    ]
+}
