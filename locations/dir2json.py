@@ -10,13 +10,15 @@ import json
 print('Simple Json list creator. ')
 
 
-def path_to_dict(path):
-    d = {'name': os.path.basename(path)}
-    if os.path.isdir(path):
+def path_to_dict(path, no_child=False):
+    d = {}
+    if os.path.isdir(path) and no_child == False:
+        d['name'] = os.path.basename(path)
         d['type'] = "directory"
-        d['children'] = [path_to_dict(os.path.join(path, x))
+        d['children'] = [path_to_dict(os.path.join(path, x), True)
                          for x in os.listdir(path)]
     else:
+        d['name'] = os.path.basename(path)
         d['type'] = "file"
     return d
 
