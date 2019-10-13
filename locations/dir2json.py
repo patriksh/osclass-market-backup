@@ -7,10 +7,11 @@ can be improved as per our use case.
 import os
 import json
 
-print('Simple Json list creator. ')
+print('Simple JSON list creator. ')
 
 
 def path_to_dict(path, no_child=False):
+    exclude = ["readme.md", "dir2json.py"]
     d = {}
     if os.path.isdir(path) and no_child == False:
         d['name'] = os.path.basename(path)
@@ -18,7 +19,14 @@ def path_to_dict(path, no_child=False):
         d['children'] = [path_to_dict(os.path.join(path, x), True)
                          for x in os.listdir(path)]
     else:
-        d['name'] = os.path.basename(path)
+        file = os.path.basename(path)
+        name = file[3:-4]
+
+        if(file in exclude):
+            return d
+        
+        d['name'] = name
+        d['file'] = file
         d['type'] = "file"
     return d
 
