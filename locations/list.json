@@ -284,11 +284,6 @@
             "type": "file"
         },
         {
-            "name": "t.",
-            "file": "list.json",
-            "type": "file"
-        },
-        {
             "name": "Sri Lanka",
             "file": "LK-Sri Lanka.sql",
             "type": "file"
