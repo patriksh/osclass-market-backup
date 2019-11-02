@@ -11,7 +11,7 @@ print('Simple JSON list creator. ')
 
 
 def path_to_dict(path, no_child=False):
-    exclude = ["readme.md", "dir2json.py"]
+    exclude = ["readme.md", "dir2json.py", "list.json"]
     d = {}
     if os.path.isdir(path) and no_child == False:
         d['name'] = os.path.basename(path)
