@@ -1,5 +1,5 @@
 """
-Simple json.list file creator in directory in which script is located
+Simple json.list file creator
 This will create a json list of directory structure
 can be improved as per our use case.
 @Author navjottomer
@@ -11,30 +11,31 @@ print('Simple JSON list creator. ')
 
 
 def path_to_dict(path, no_child=False):
-    exclude = ["readme.md", "dir2json.py", "list.json"]
+    
     d = {}
     if os.path.isdir(path) and no_child == False:
+
         d['name'] = os.path.basename(path)
         d['type'] = "directory"
         d['children'] = [path_to_dict(os.path.join(path, x), True)
-                         for x in os.listdir(path)]
+                         # restrict to sql 
+                         for x in sorted(os.listdir(path)) if x.endswith("sql")] 
+        return d                               
     else:
         file = os.path.basename(path)
         name = file[3:-4]
-
-        if(file in exclude):
-            return d
-        
+        extention = os.path.splitext(path)[1]
         d['name'] = name
         d['file'] = file
         d['type'] = "file"
-    return d
-
-
+        return d
+    return d        
+        
 resultedJsonOfCurrentDirectoryStructure = json.dumps(path_to_dict(
     os.path.dirname(os.path.abspath(__file__))), indent=4)
 
 currentScriptDirectory = os.path.dirname(os.path.abspath(__file__))
+
 f = open(os.path.join(currentScriptDirectory, 'list.json'), 'w+')
 f.write(resultedJsonOfCurrentDirectoryStructure)
 f.close()

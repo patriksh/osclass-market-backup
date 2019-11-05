@@ -132,7 +132,6 @@
             "file": "DE-Germany.sql",
             "type": "file"
         },
-        {},
         {
             "name": "Denmark",
             "file": "DK-Denmark.sql",
@@ -383,7 +382,6 @@
             "file": "PY-Paraguay.sql",
             "type": "file"
         },
-        {},
         {
             "name": "Romania",
             "file": "RO-Romania.sql",
