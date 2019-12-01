@@ -6,6 +6,7 @@ can be improved as per our use case.
 """
 import os
 import json
+import operator
 
 print('Simple JSON list creator. ')
 
@@ -19,7 +20,9 @@ def path_to_dict(path, no_child=False):
         d['type'] = "directory"
         d['children'] = [path_to_dict(os.path.join(path, x), True)
                          # restrict to sql 
-                         for x in sorted(os.listdir(path)) if x.endswith("sql")] 
+                         for x in sorted(os.listdir(path)) if x.endswith("sql")]
+        d_child = sorted(d['children'], key = operator.itemgetter('name'))  
+        d['children'] = d_child            
         return d                               
     else:
         file = os.path.basename(path)
@@ -28,11 +31,11 @@ def path_to_dict(path, no_child=False):
         d['name'] = name
         d['file'] = file
         d['type'] = "file"
-        return d
-    return d        
+        return d   
+    return d       
         
-resultedJsonOfCurrentDirectoryStructure = json.dumps(path_to_dict(
-    os.path.dirname(os.path.abspath(__file__))), indent=4)
+directoryStructure = path_to_dict(os.path.dirname(os.path.abspath(__file__)))
+resultedJsonOfCurrentDirectoryStructure = json.dumps(directoryStructure, indent=4)
 
 currentScriptDirectory = os.path.dirname(os.path.abspath(__file__))
 
